@@ -6,6 +6,7 @@ import Login from "./Pages/Login";
 import SignUp from "./Pages/SignUp";
 import Account from "./Pages/Account";
 import ProtectedRoute from "./components/ProtectedRoute";
+import Genres from "./Pages/Genres";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
+          <Route path="/genres" element={<Genres />} />
           <Route
             path="/account"
             element={
